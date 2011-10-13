@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\rj\dev\BasicBlog\BasicBlog\tests\BasicBlog.Tests\bin\Debug\BasicBlog.Tests.dll" total="24" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-10-11" time="18:49:28">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4961" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="PNOYTECHY-PC" user="pnoytechy" user-domain="pnoytechy-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\rj\dev\BasicBlog\BasicBlog\tests\BasicBlog.Tests\bin\Debug\BasicBlog.Tests.dll" executed="True" result="Success" success="True" time="6.599" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="6.583" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="BasicBlog" executed="True" result="Success" success="True" time="6.583" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="ApplicationServices" executed="True" result="Success" success="True" time="1.560" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="EntryManagementServiceTests" executed="True" result="Success" success="True" time="1.560" asserts="0">
+                    <results>
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanCreateFormViewModel" executed="True" result="Success" success="True" time="0.780" asserts="2" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanCreateFormViewModelForEntry" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanDeleteEntry" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanGetAllEntries" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanGetEntry" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanGetEntrySummaries" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CannotDeleteNonexistentEntry" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CannotSaveOrUpdateInvalidEntry" executed="True" result="Success" success="True" time="0.686" asserts="3" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CannotUpdateWithInvalidEntryFromForm" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanSaveOrUpdateValidEntry" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                      <test-case name="Tests.BasicBlog.ApplicationServices.EntryManagementServiceTests.CanUpdateWithValidEntryFromForm" executed="True" result="Success" success="True" time="0.016" asserts="5" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="0.359" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="RouteRegistrarTests" executed="True" result="Success" success="True" time="0.359" asserts="0">
+                    <results>
+                      <test-case name="Tests.BasicBlog.Controllers.RouteRegistrarTests.CanVerifyRouteMaps" executed="True" result="Success" success="True" time="0.359" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="EntryTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Tests.BasicBlog.Core.EntryTests.CanCompareEntries" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Data" executed="True" result="Success" success="True" time="4.477" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="NHibernateMaps" executed="True" result="Success" success="True" time="4.477" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="MappingIntegrationTests" executed="True" result="Success" success="True" time="4.477" asserts="0">
+                        <categories>
+                          <category name="DB Tests" />
+                        </categories>
+                        <results>
+                          <test-case name="Tests.BasicBlog.Data.NHibernateMaps.MappingIntegrationTests.CanConfirmDatabaseMatchesMappings" executed="True" result="Success" success="True" time="4.384" asserts="0" />
+                          <test-case name="Tests.BasicBlog.Data.NHibernateMaps.MappingIntegrationTests.CanGenerateDatabaseSchema" executed="True" result="Success" success="True" time="0.094" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Web" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="EntriesControllerTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                        <results>
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CanCreateValidEntryFromForm" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CanDeleteEntry" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CanInitCreate" executed="True" result="Success" success="True" time="0.016" asserts="3" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CanInitEdit" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CanListEntries" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CannotCreateInvalidEntryFromForm" executed="True" result="Success" success="True" time="0.016" asserts="2" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CannotUpdateInvalidEntryFromForm" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CanShowEntry" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+                          <test-case name="Tests.BasicBlog.Web.Controllers.EntriesControllerTests.CanUpdateValidEntryFromForm" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
